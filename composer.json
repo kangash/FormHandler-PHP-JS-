@@ -1,0 +1,19 @@
+{
+    "name": "bereb/reset-api.com",
+    "authors": [
+        {
+            "name": "Kangash Eduard",
+            "email": "kangash1996@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "Catalog\\": "catalog\\"
+        }, 
+        "files": [
+            "engine/Function.php"
+        ]
+    }
+}
